@@ -1,9 +1,0 @@
-eye-tracking-calibration/
-├── index.html        # HTML本体
-├── css/
-│   └── style.css     # スタイル（CSS）
-├── js/
-│   ├── calibration.js # キャリブレーション処理
-│   ├── tracking.js    # 視線トラッキング処理
-│   └── utils.js       # ヘルパー関数（shuffle, sleep など）
-└── assets/           # アイコンや画像（必要なら）
