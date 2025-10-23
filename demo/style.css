@@ -1,0 +1,31 @@
+/* ページ全体の見た目設定 */
+body {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* キャリブレーション点を配置するエリア */
+#calibrationArea {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+/* キャリブレーション用の点 */
+.calib-dot {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s;
+}
