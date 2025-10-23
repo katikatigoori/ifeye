@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>アイトラッキング + キャリブレーション</title>
+  <!-- WebGazer (CDN)。インターネット環境必須 -->
+  <script src="https://webgazer.cs.brown.edu/webgazer.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1>アイトラッキング デモ</h1>
+  <p id="status">読み込み中...</p>
+
+  <div id="dot" aria-hidden="true"></div>
+
+  <div id="controls">
+    <button id="startCalib">キャリブレーション開始</button>
+    <button id="recalib" disabled>再キャリブレーション</button>
+    <button id="download" disabled>ログをCSVでダウンロード</button>
+  </div>
+
+  <!-- エントリーポイント -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
